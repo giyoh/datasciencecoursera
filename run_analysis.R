@@ -43,4 +43,4 @@ summarizedMeanByActivityNSubject <- aggregate(meanNstd[3:81],by=list(Activity=me
 
 write.table(mergedSet,"merged_Training_and_Testing_Data_Sets.txt")
 write.table(meanNstd,"Measures_on_Mean_and_Standard_Deviation.txt")
-write.table(summarizedMeanByActivityNSubject,"summarized_Mean_By_Activity_and_Subject.txt")
+write.table(summarizedMeanByActivityNSubject,"summarized_Mean_By_Activity_and_Subject.txt",row.names = FALSE)
