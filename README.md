@@ -1,18 +1,10 @@
-trainLabels <- read.table("train/y_train.txt")
-trainSet <- read.table("train/X_train.txt")
-
-testLabels <- read.table("test/y_test.txt")
-testSet <- read.table("test/X_test.txt")
-
-features <- read.table("features.txt")
-names(trainSet) <- features$V2
 ## README for the 'Getting and Cleaning Data' Assignment 
 # prepared by Emmanuel Giyoh Ngala
 
 This README describes all the files and how they relate with one another.
 
 #- run_analysis.R 
-#=====================
+
 
 Is the R script that reads the original Training and Testing Data Sets
 Merges the data sets into one data set called 'MergedSet' in the R script
@@ -27,7 +19,7 @@ All the data is clean and the data on the files can be read with simple read.tab
 
 
 #- "merged_Training_and_Testing_Data_Sets.txt"
-#===============================================
+
 
 This is the file that stores the tidy data frame for the merged Training and Testing data sets
 It is written as a table and can be read as a table
@@ -35,14 +27,14 @@ Rows = 10,299  Columns = 563
 
 
 #- "Measures_on_Mean_and_Standard_Deviation.txt"
-#==================================================
+
 
 This file stores the tidy data frame of the mean and standard deviation extracted from the above file.
 Rows = 10,299  Columns = 81
 
 
 #- "summarized_Mean_By_Activity_and_Subject.txt"
-#==================================================
+
 
 This file stores tidy summary data of the means from the above file.
 Grouped by Activity and the Subject [also refered to as the Volunteer]
