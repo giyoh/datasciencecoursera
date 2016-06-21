@@ -3,7 +3,7 @@
 
 This README describes all the files and how they relate with one another.
 
-#- run_analysis.R 
+# run_analysis.R 
 
 
 Is the R script that reads the original Training and Testing Data Sets
@@ -18,7 +18,7 @@ All the data is clean and the data on the files can be read with simple read.tab
 
 
 
-#- "merged_Training_and_Testing_Data_Sets.txt"
+# "merged_Training_and_Testing_Data_Sets.txt"
 
 
 This is the file that stores the tidy data frame for the merged Training and Testing data sets
@@ -26,14 +26,14 @@ It is written as a table and can be read as a table
 Rows = 10,299  Columns = 563
 
 
-#- "Measures_on_Mean_and_Standard_Deviation.txt"
+# "Measures_on_Mean_and_Standard_Deviation.txt"
 
 
 This file stores the tidy data frame of the mean and standard deviation extracted from the above file.
 Rows = 10,299  Columns = 81
 
 
-#- "summarized_Mean_By_Activity_and_Subject.txt"
+# "summarized_Mean_By_Activity_and_Subject.txt"
 
 
 This file stores tidy summary data of the means from the above file.
